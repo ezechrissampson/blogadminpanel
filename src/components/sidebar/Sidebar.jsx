@@ -13,11 +13,8 @@ const Sidebar = () => {
     <ul className="nav flex-column">
 
       <li className="nav-item position-relative">
-        <a className="nav-link active" href="#"><i className="bi bi-speedometer2"></i> Dashboard</a>
-        <div className="submenu">
-          <a href="#"><i className="bi bi-house"></i> Home</a>
-          <a href="#"><i className="bi bi-arrow-repeat"></i> Updates</a>
-        </div>
+        
+    <Link className="nav-link active" to="/"><i className="bi bi-speedometer2"></i> Dashboard</Link>
       </li>
 
       <li className="nav-item position-relative">
