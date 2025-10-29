@@ -33,7 +33,6 @@ const Sidebar = () => {
         <a className="nav-link" href="#"><i class="bi bi-image"></i> Media</a>
         <div className="submenu">
           <a href="#"><i className="bi bi-images"></i> Library</a>
-          <a href="#"><i className="bi bi-upload"></i> Add New</a>
         </div>
       </li>
 
