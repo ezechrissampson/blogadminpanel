@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 import { Link } from "react-router-dom";
 
-const Allpost = () => {
+const Allpages = () => {
 
     return(
   <>
@@ -12,8 +12,8 @@ const Allpost = () => {
 <div className="bg-light main-content">
   <div className="container-fluid p-4">
     <div className="d-flex justify-content-between align-items-center mb-3">
-     <h4 className="mb-0">Posts</h4>
-    <Link to="/addnewpost">  <button className="btn btn-primary">Add Post</button> </Link>
+     <h4 className="mb-0">Pages</h4>
+    <Link to="/addnewpage">  <button className="btn btn-primary">Add Page</button> </Link>
     </div>
 
 
@@ -40,17 +40,12 @@ const Allpost = () => {
         </select>
       </div>
       <div className="col-auto">
-        <select className="form-select form-select-sm">
-          <option>All Categories</option>
-        </select>
-      </div>
-      <div className="col-auto">
         <button type="button" className="btn btn-sm btn-secondary">Filter</button>
       </div>
       <div className="col ms-auto">
         <div className="input-group input-group-sm">
-          <input type="text" className="form-control" placeholder="Search Posts" />
-          <button className="btn btn-outline-secondary" type="button">Search Posts</button>
+          <input type="text" className="form-control" placeholder="Search Pages" />
+          <button className="btn btn-outline-secondary" type="button">Search Pages</button>
         </div>
       </div>
     </form>
@@ -62,8 +57,6 @@ const Allpost = () => {
           <th><input type="checkbox" className="form-check-input" /></th>
           <th>Title</th>
           <th>Author</th>
-          <th>Categories</th>
-          <th>Tags</th>
           <th><i className="bi bi-chat"></i></th>
           <th>Date</th>
         </tr>
@@ -73,8 +66,6 @@ const Allpost = () => {
           <td><input type="checkbox" className="form-check-input" /></td>
           <td><a href="#" className="text-decoration-none text-primary fw-semibold">Hello world!</a></td>
           <td>wpdevmode</td>
-          <td>Uncategorized</td>
-          <td>—</td>
           <td><span className="badge bg-secondary">1</span></td>
           <td>Published 2025/10/18 at 5:30 am</td>
         </tr>
@@ -103,4 +94,4 @@ const Allpost = () => {
     )
 }
 
-export default Allpost
+export default Allpages

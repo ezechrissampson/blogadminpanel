@@ -1,8 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import Dashboard from './pages/dashboard/Dashboard.jsx'
-import Allpost from './pages/allpost/allpost.jsx';
-import Addnewpost from './pages/addnewpost/addnewpost.jsx';
+import Allposts from './pages/forposts/allpost.jsx';
+import Addnewpost from './pages/forposts/addnewpost.jsx';
+import Allpages from './pages/forpages/allpages.jsx';
+import Addnewpage from './pages/forpages/addnewpage.jsx';
 
 function App() {
 
@@ -11,9 +13,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
 
-         <Route path="/allpost" element={<Allpost/>} />
+         <Route path="/allposts" element={<Allposts/>} />
 
           <Route path="/addnewpost" element={<Addnewpost/>} />
+
+          <Route path="/allpages" element={<Allpages/>} />
+
+          <Route path="/addnewpage" element={<Addnewpage/>} />
       </Routes>
     </BrowserRouter>
   )

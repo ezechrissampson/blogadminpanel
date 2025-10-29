@@ -20,14 +20,14 @@ const Sidebar = () => {
       <li className="nav-item position-relative">
         <a className="nav-link" href="#"><i className="bi bi-stickies"></i> Posts</a>
         <div className="submenu">
-          <Link to="/allpost"><i className="bi bi-list-ul"></i> All Posts</Link>
+          <Link to="/allposts"><i className="bi bi-list-ul"></i> All Posts</Link>
           <Link to="/addnewpost"><i className="bi bi-plus-lg"></i> Add New</Link>
           <a href="#"><i className="bi bi-tags"></i> Categories</a>
         </div>
       </li>
 
       <li className="nav-item position-relative">
-        <a className="nav-link" href="#"><i class="bi bi-image"></i> Media</a>
+        <a className="nav-link" href="#"><i className="bi bi-image"></i> Media</a>
         <div className="submenu">
           <a href="#"><i className="bi bi-images"></i> Library</a>
         </div>
@@ -36,8 +36,8 @@ const Sidebar = () => {
       <li className="nav-item position-relative">
         <a className="nav-link" href="#"><i className="bi bi-file-earmark-text"></i> Pages</a>
         <div className="submenu">
-          <a href="#"><i className="bi bi-collection"></i> All Pages</a>
-          <a href="#"><i className="bi bi-plus-square"></i> Add New</a>
+          <Link to="/allpages"><i className="bi bi-collection"></i> All Pages</Link>
+          <Link to="/addnewpage"><i className="bi bi-plus-square"></i> Add New</Link>
         </div>
       </li>
 
@@ -62,7 +62,7 @@ const Sidebar = () => {
       </li>
 
       <li className="nav-item position-relative">
-        <a className="nav-link" href="#"><i class="bi bi-people"></i> Users</a>
+        <a className="nav-link" href="#"><i className="bi bi-people"></i> Users</a>
         <div className="submenu">
           <a href="#"><i className="bi bi-person-lines-fill"></i> All Users</a>
           <a href="#"><i className="bi bi-person-plus"></i> Add New</a>

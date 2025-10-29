@@ -1,12 +1,11 @@
 import React from "react";
-import RichTextEditor from "./richtexteditor";
+import RichTextEditor from "../../components/richtexteditor";
 import Sidebar from "../../components/sidebar/Sidebar";
 
 
- const Addnewpost = () => {
+ const Addnewpage = () => {
   const handleSavePost = (html) => {
     console.log("Post HTML:", html);
-    // You can send `html` to your backend here via Axios or fetch()
   };
 
   return (
@@ -21,4 +20,4 @@ import Sidebar from "../../components/sidebar/Sidebar";
   );
 }
 
-export default Addnewpost
+export default Addnewpage
