@@ -1,5 +1,6 @@
 import React from "react";
 import "./sidebar.css"
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
 
@@ -22,8 +23,8 @@ const Sidebar = () => {
       <li className="nav-item position-relative">
         <a className="nav-link" href="#"><i className="bi bi-stickies"></i> Posts</a>
         <div className="submenu">
-          <a href="#"><i className="bi bi-list-ul"></i> All Posts</a>
-          <a href="#"><i className="bi bi-plus-lg"></i> Add New</a>
+          <Link to="/allpost"><i className="bi bi-list-ul"></i> All Posts</Link>
+          <Link to="/addnewpost"><i className="bi bi-plus-lg"></i> Add New</Link>
           <a href="#"><i className="bi bi-tags"></i> Categories</a>
         </div>
       </li>
