@@ -42,7 +42,7 @@ const Sidebar = () => {
       </li>
 
       <li className="nav-item position-relative">
-        <a className="nav-link" href="#"><i className="bi bi-chat-dots"></i> Comments</a>
+        <Link className="nav-link" to="/comments"><i className="bi bi-chat-dots"></i> Comments</Link>
       </li>
 
       <li className="nav-item position-relative">
