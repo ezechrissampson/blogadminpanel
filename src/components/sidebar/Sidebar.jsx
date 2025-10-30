@@ -62,9 +62,9 @@ const Sidebar = () => {
       </li>
 
       <li className="nav-item position-relative">
-        <a className="nav-link" href="#"><i className="bi bi-people"></i> Users</a>
+        <a className="nav-link" href="#"><i className="bi bi-people"></i>Admins</a>
         <div className="submenu">
-          <a href="#"><i className="bi bi-person-lines-fill"></i> All Users</a>
+          <Link to="/alladmins"><i className="bi bi-person-lines-fill"></i> All Admins</Link>
           <a href="#"><i className="bi bi-person-plus"></i> Add New</a>
         </div>
       </li>

@@ -7,6 +7,7 @@ import Allpages from './pages/forpages/allpages.jsx';
 import Addnewpage from './pages/forpages/addnewpage.jsx';
 import MediaLibrary from './pages/medialibrary/medialibrary.jsx';
 import Comments from './pages/comments/comments.jsx';
+import Alladmins from './pages/foradmins/alladmins.jsx';
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
           <Route path="/medialibrary" element={<MediaLibrary/>} />
 
           <Route path="/comments" element={<Comments/>} />
+
+          <Route path="/alladmins" element={<Alladmins/>} />
       </Routes>
     </BrowserRouter>
   )
