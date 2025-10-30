@@ -65,7 +65,7 @@ const Sidebar = () => {
         <a className="nav-link" href="#"><i className="bi bi-people"></i>Admins</a>
         <div className="submenu">
           <Link to="/alladmins"><i className="bi bi-person-lines-fill"></i> All Admins</Link>
-          <a href="#"><i className="bi bi-person-plus"></i> Add New</a>
+          <Link to="/addnewadmin"><i className="bi bi-person-plus"></i> Add New</Link>
         </div>
       </li>
 

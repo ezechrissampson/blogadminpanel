@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
+import { Link } from "react-router-dom";
 
 
 const Alladmins = () => {
@@ -12,7 +13,7 @@ const Alladmins = () => {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <h3 className="mb-0">Admins</h3>
-        <button className="btn btn-primary btn-sm">Add Admin</button>
+      <Link to="/addnewadmin" className="btn btn-primary btn-sm">Add Admin</Link>
       </div>
 
       {/* Filter Links */}
@@ -84,9 +85,9 @@ const Alladmins = () => {
                   width="40"
                   height="40"
                 />
-                <a href="#" className="text-decoration-none fw-semibold">
+                <Link to="/adminprofile" className="text-decoration-none fw-semibold">
                   Ezechrissam
-                </a>
+                </Link>
               </td>
               <td>Ezechris</td>
               <td>

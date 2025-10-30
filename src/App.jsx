@@ -8,6 +8,8 @@ import Addnewpage from './pages/forpages/addnewpage.jsx';
 import MediaLibrary from './pages/medialibrary/medialibrary.jsx';
 import Comments from './pages/comments/comments.jsx';
 import Alladmins from './pages/foradmins/alladmins.jsx';
+import Addnewadmin from './pages/foradmins/addnewadmin.jsx';
+import Adminprofile from './pages/foradmins/adminprofile.jsx';
 
 function App() {
 
@@ -29,6 +31,10 @@ function App() {
           <Route path="/comments" element={<Comments/>} />
 
           <Route path="/alladmins" element={<Alladmins/>} />
+
+          <Route path="/addnewadmin" element={<Addnewadmin/>} />
+
+          <Route path="/adminprofile" element={<Adminprofile/>} />
       </Routes>
     </BrowserRouter>
   )
