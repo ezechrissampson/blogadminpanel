@@ -29,7 +29,7 @@ const Sidebar = () => {
       <li className="nav-item position-relative">
         <a className="nav-link" href="#"><i className="bi bi-image"></i> Media</a>
         <div className="submenu">
-          <a href="#"><i className="bi bi-images"></i> Library</a>
+          <Link to="/medialibrary"><i className="bi bi-images"></i> Library</Link>
         </div>
       </li>
 

@@ -5,6 +5,7 @@ import Allposts from './pages/forposts/allpost.jsx';
 import Addnewpost from './pages/forposts/addnewpost.jsx';
 import Allpages from './pages/forpages/allpages.jsx';
 import Addnewpage from './pages/forpages/addnewpage.jsx';
+import MediaLibrary from './pages/medialibrary/medialibrary.jsx';
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
           <Route path="/allpages" element={<Allpages/>} />
 
           <Route path="/addnewpage" element={<Addnewpage/>} />
+
+          <Route path="/medialibrary" element={<MediaLibrary/>} />
       </Routes>
     </BrowserRouter>
   )
