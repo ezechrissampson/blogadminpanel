@@ -10,6 +10,8 @@ import Comments from './pages/comments/comments.jsx';
 import Alladmins from './pages/foradmins/alladmins.jsx';
 import Addnewadmin from './pages/foradmins/addnewadmin.jsx';
 import Adminprofile from './pages/foradmins/adminprofile.jsx';
+import Allsubscribers from './pages/subscribers/subscribers.jsx';
+import Subscriberprofile from './pages/subscribers/subscriberprofile.jsx';
 
 function App() {
 
@@ -35,9 +37,14 @@ function App() {
           <Route path="/addnewadmin" element={<Addnewadmin/>} />
 
           <Route path="/adminprofile" element={<Adminprofile/>} />
+
+         <Route path="/subscribers" element={<Allsubscribers/>} />
+
+        <Route path="/subscriberprofile" element={<Subscriberprofile/>} />
+
       </Routes>
     </BrowserRouter>
-  )
+  ) 
 }
 
 export default App

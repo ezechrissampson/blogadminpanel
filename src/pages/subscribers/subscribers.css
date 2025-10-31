@@ -1,0 +1,23 @@
+    .table-container {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+    .profile-img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+    .badge-enabled {
+      background-color: #856404;
+      color: #000;
+      border: 1px solid #ffeeba;
+      font-weight: 500;
+    }
+    .btn-sm {
+      padding: 2px 8px;
+      font-size: 0.85rem;
+    }

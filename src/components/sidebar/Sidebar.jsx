@@ -8,7 +8,7 @@ const Sidebar = () => {
     return(
         <>
         
-        <div className="sidebar d-flex flex-column">
+    <div className="sidebar d-flex flex-column">
     <h5><i className="bi"></i>Blog Admin Panel</h5>
     <ul className="nav flex-column">
 
@@ -67,7 +67,7 @@ const Sidebar = () => {
       </li>
 
       <li className="nav-item position-relative">
-        <a className="nav-link" href="#"><i className="bi bi-people"></i>Subscribers</a>
+        <Link className="nav-link" to="/subscribers"><i className="bi bi-people"></i>Subscribers</Link>
       </li>
 
 {/*
