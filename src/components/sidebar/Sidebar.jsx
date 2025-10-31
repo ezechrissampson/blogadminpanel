@@ -45,20 +45,17 @@ const Sidebar = () => {
         <Link className="nav-link" to="/comments"><i className="bi bi-chat-dots"></i> Comments</Link>
       </li>
 
+
       <li className="nav-item position-relative">
-        <a className="nav-link" href="#"><i className="bi bi-palette"></i> Appearance</a>
+        <a className="nav-link" href="#"><i className="bi bi-palette"></i>Template</a>
         <div className="submenu">
-          <a href="#"><i className="bi bi-brush"></i> Themes</a>
-          <a href="#"><i className="bi bi-tools"></i> Customize</a>
+          <a href="#"><i className="bi bi-brush"></i> Email Template</a>
+          <a href="#"><i className="bi bi-tools"></i> Custom Email</a>
         </div>
       </li>
 
       <li className="nav-item position-relative">
         <a className="nav-link" href="#"><i className="bi bi-plug"></i> Plugins</a>
-        <div className="submenu">
-          <a href="#"><i className="bi bi-puzzle"></i> Installed</a>
-          <a href="#"><i className="bi bi-plus-circle"></i> Add New</a>
-        </div>
       </li>
 
       <li className="nav-item position-relative">
@@ -70,18 +67,19 @@ const Sidebar = () => {
       </li>
 
       <li className="nav-item position-relative">
-        <a className="nav-link" href="#"><i className="bi bi-wrench"></i> Tools</a>
-        <div className="submenu">
-          <a href="#"><i className="bi bi-upload"></i> Import</a>
-          <a href="#"><i className="bi bi-download"></i> Export</a>
-        </div>
+        <a className="nav-link" href="#"><i className="bi bi-people"></i>Subscribers</a>
       </li>
 
+{/*
+      <li className="nav-item position-relative"> 
+        <a className="nav-link" href="#"><i className="bi bi-wrench"></i> Config</a>
+      </li>
+*/}
       <li className="nav-item position-relative">
         <a className="nav-link" href="#"><i className="bi bi-gear"></i> Settings</a>
         <div className="submenu">
           <a href="#"><i className="bi bi-sliders"></i> General</a>
-          <a href="#"><i className="bi bi-link-45deg"></i> Permalinks</a>
+          <a href="#"><i className="bi bi-wrench"></i> Config</a>
         </div>
       </li>
 
