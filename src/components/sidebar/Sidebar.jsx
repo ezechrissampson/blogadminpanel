@@ -49,8 +49,8 @@ const Sidebar = () => {
       <li className="nav-item position-relative">
         <a className="nav-link" href="#"><i className="bi bi-palette"></i>Template</a>
         <div className="submenu">
-          <a href="#"><i className="bi bi-brush"></i> Email Template</a>
-          <a href="#"><i className="bi bi-tools"></i> Custom Email</a>
+          <Link to="/emailtemplates"><i className="bi bi-brush"></i> Email Template</Link>
+          <Link to="/customemail"><i className="bi bi-tools"></i> Custom Email</Link>
         </div>
       </li>
 

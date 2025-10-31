@@ -12,6 +12,8 @@ import Addnewadmin from './pages/foradmins/addnewadmin.jsx';
 import Adminprofile from './pages/foradmins/adminprofile.jsx';
 import Allsubscribers from './pages/subscribers/subscribers.jsx';
 import Subscriberprofile from './pages/subscribers/subscriberprofile.jsx';
+import EmailTemplateTable from './pages/foremails/emailtemplate/emailtemplatetable.jsx';
+import CustomEmail from './pages/foremails/emailtemplate/customemail.jsx';
 
 function App() {
 
@@ -41,6 +43,10 @@ function App() {
          <Route path="/subscribers" element={<Allsubscribers/>} />
 
         <Route path="/subscriberprofile" element={<Subscriberprofile/>} />
+
+        <Route path="/emailtemplates" element={<EmailTemplateTable/>} />
+
+        <Route path="/customemail" element={<CustomEmail/>} />
 
       </Routes>
     </BrowserRouter>
