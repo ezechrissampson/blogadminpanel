@@ -81,7 +81,7 @@ const Comments = () => {
               />
               <div>
                 <strong> Commenter</strong><br />
-                <small className="text-muted">wapuu@wordpress.example</small>
+                <small className="text-muted">example@gmail.com</small>
               </div>
             </td>
             <td>

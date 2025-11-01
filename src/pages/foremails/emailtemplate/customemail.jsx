@@ -1,5 +1,6 @@
 import React from "react"
 import Sidebar from "../../../components/sidebar/Sidebar";
+import Emaileditor from "../emaileditor";
 
 const CustomEmail = () => {
   return (
@@ -8,7 +9,7 @@ const CustomEmail = () => {
 
     <div className="main-content">
       <h4>Create Custom Email</h4>
-      {/* Add your form or content here */}
+      <Emaileditor />
     </div>
 
     </>

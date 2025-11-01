@@ -12,7 +12,7 @@ import Addnewadmin from './pages/foradmins/addnewadmin.jsx';
 import Adminprofile from './pages/foradmins/adminprofile.jsx';
 import Allsubscribers from './pages/subscribers/subscribers.jsx';
 import Subscriberprofile from './pages/subscribers/subscriberprofile.jsx';
-import EmailTemplateTable from './pages/foremails/emailtemplate/emailtemplatetable.jsx';
+import EmailTemplateTable from './pages/foremails/emailtemplate/emailtemplatepage.jsx';
 import CustomEmail from './pages/foremails/emailtemplate/customemail.jsx';
 
 function App() {
