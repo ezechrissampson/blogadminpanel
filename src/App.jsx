@@ -14,6 +14,7 @@ import Allsubscribers from './pages/subscribers/subscribers.jsx';
 import Subscriberprofile from './pages/subscribers/subscriberprofile.jsx';
 import EmailTemplateTable from './pages/foremails/emailtemplate/emailtemplatepage.jsx';
 import CustomEmail from './pages/foremails/emailtemplate/customemail.jsx';
+import Pluginslist from './pages/forplugins/plugins.jsx';
 
 function App() {
 
@@ -47,6 +48,8 @@ function App() {
         <Route path="/emailtemplates" element={<EmailTemplateTable/>} />
 
         <Route path="/customemail" element={<CustomEmail/>} />
+
+        <Route path="/plugins" element={<Pluginslist/>} />
 
       </Routes>
     </BrowserRouter>
