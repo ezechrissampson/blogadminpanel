@@ -32,7 +32,7 @@ const Allsubscribers = () => {
       <tbody>
 
         <tr>
-          <td><img src="./src/assets/profile.png" className="profile-img" /> Liam Smith</td>
+          <td><img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" className="profile-img" /> Liam Smith</td>
           <td>smith@example.com</td>
           <td>USA</td>
           <td><span className="status-active">Frontend Developer</span></td>
@@ -43,7 +43,7 @@ const Allsubscribers = () => {
         </tr>
 
         <tr>
-          <td><img src="./src/assets/profile.png" className="profile-img" /> Noah Anderson</td>
+          <td><img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" className="profile-img" /> Noah Anderson</td>
           <td>anderson@example.com</td>
           <td>Nigeria</td>
           <td><span className="status-active">Backend Developer</span></td>
@@ -54,7 +54,7 @@ const Allsubscribers = () => {
         </tr>
 
         <tr>
-          <td><img src="./src/assets/profile.png" className="profile-img" /> Isabella Garcia</td>
+          <td><img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" className="profile-img" /> Isabella Garcia</td>
           <td>garcia@example.com</td>
           <td>Japan</td>
           <td><span className="status-inactive">UI/UX Designer</span></td>
@@ -65,7 +65,7 @@ const Allsubscribers = () => {
         </tr>
 
         <tr>
-          <td><img src="./src/assets/profile.png" className="profile-img" /> Benjamin Lewis</td>
+          <td><img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" className="profile-img" /> Benjamin Lewis</td>
           <td>lewis@example.com</td>
           <td>South Africa</td>
           <td><span className="status-active">Fullstack Developer</span></td>
@@ -76,7 +76,7 @@ const Allsubscribers = () => {
         </tr>
 
         <tr>
-          <td><img src="./src/assets/profile.png" className="profile-img" /> Amelia Davis</td>
+          <td><img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" className="profile-img" /> Amelia Davis</td>
           <td>davis@example.com</td>
           <td>United Kingdom</td>
           <td><span className="status-inactive">Technical Writer</span></td>
@@ -88,7 +88,7 @@ const Allsubscribers = () => {
 
                 
         <tr>
-          <td><img src="./src/assets/profile.png" className="profile-img" /> Liam Smith</td>
+          <td><img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" className="profile-img" /> Liam Smith</td>
           <td>smith@example.com</td>
           <td>USA</td>
           <td><span className="status-active">Devops Engineer</span></td>
@@ -99,8 +99,8 @@ const Allsubscribers = () => {
         </tr>
 
         <tr>
-          <td><img src="./src/assets/profile.png" className="profile-img" /> Noah Anderson</td>
-          <td>anderson@example.com</td>
+            <td><img src="./src/assets/profile.png" className="profile-img" /> Noah Anderson</td>
+            <td>anderson@example.com</td>
           <td>Nigeria</td>
           <td><span className="status-active">Graphic Designer</span></td>
           <td>15 Mar 2023, 2:45 pm</td>

@@ -15,6 +15,8 @@ import Subscriberprofile from './pages/subscribers/subscriberprofile.jsx';
 import EmailTemplateTable from './pages/foremails/emailtemplate/emailtemplatepage.jsx';
 import CustomEmail from './pages/foremails/emailtemplate/customemail.jsx';
 import Pluginslist from './pages/forplugins/plugins.jsx';
+import Generalsetting from './pages/forsettings/generalsettings.jsx';
+import Configs from './pages/forsettings/configs.jsx';
 
 function App() {
 
@@ -50,6 +52,10 @@ function App() {
         <Route path="/customemail" element={<CustomEmail/>} />
 
         <Route path="/plugins" element={<Pluginslist/>} />
+
+        <Route path="/generalsettings" element={<Generalsetting/>} />
+
+        <Route path="/configs" element={<Configs/>} />
 
       </Routes>
     </BrowserRouter>

@@ -71,10 +71,10 @@ const Sidebar = () => {
       </li>
       
       <li className="nav-item position-relative">
-        <a className="nav-link" href="#"><i className="bi bi-gear"></i> Settings</a>
+        <Link className="nav-link" to="/generalsettings"><i className="bi bi-gear"></i> Settings</Link>
         <div className="submenu">
-          <a href="#"><i className="bi bi-sliders"></i> General</a>
-          <a href="#"><i className="bi bi-wrench"></i> Config</a>
+          <Link to="/generalsettings"><i className="bi bi-sliders"></i> General</Link>
+          <Link to="/configs"><i className="bi bi-wrench"></i> Config</Link>
         </div>
       </li>
 
